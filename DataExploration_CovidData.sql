@@ -8,7 +8,7 @@ select * from CovidVaccinations
 where continent is not null
 order by location,date;
 
----select data that we are going to be using
+---select data that I'm going to be using
 select location,date, total_cases,new_cases,total_deaths,population
 from CovidDeaths
 where continent is not null
